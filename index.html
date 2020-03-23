@@ -3,9 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
 </head>
 <body>
+    <div id="start">
+        <h1 class="heading">Trivia</h1>
+        
+        <button id="stButton">Start</button>
+    </div>
     
+    <div id="gameplay">
+        <h1 class="heading">Trivia</h1>
+
+        <h1 id="timer">Time Remaining: <span id="number">60 Seconds</span></h1>
+
+        <h1>1. </h1>
+            <input type="radio" name="q1" value="">XXXXX
+            <input type="radio" name="q1" value="">XXXXX
+            <input type="radio" name="q1" value="">XXXXX            
+            <input type="radio" name="q1" value="">XXXXX
+
+        <h1>2. </h1>
+            <input type="radio" name="q2" value="">XXXXX
+            <input type="radio" name="q2" value="">XXXXX
+            <input type="radio" name="q2" value="">XXXXX            
+            <input type="radio" name="q2" value="">XXXXX
+
+        <h1>3. </h1>
+            <input type="radio" name="q3" value="">XXXXX
+            <input type="radio" name="q3" value="">XXXXX
+            <input type="radio" name="q3" value="">XXXXX            
+            <input type="radio" name="q3" value="">XXXXX
+
+        <h1>4. </h1>
+            <input type="radio" name="q4" value="">XXXXX
+            <input type="radio" name="q4" value="">XXXXX
+            <input type="radio" name="q4" value="">XXXXX            
+            <input type="radio" name="q4" value="">XXXXX
+
+        <h1>5. </h1>
+            <input type="radio" name="q5" value="">XXXXX
+            <input type="radio" name="q5" value="">XXXXX
+            <input type="radio" name="q5" value="">XXXXX            
+            <input type="radio" name="q5" value="">XXXXX
+
+        <br>
+
+        <button id="done">Finished!</button>
+    </div>
+    <div id="results">
+        <h1 class="heading">Trivia</h1>
+
+        <h1>Lets see how you did!</h1>
+
+        <h1>Correct: <span id="correct"></span>0</h1>
+        <h1>Missed: <span id="missed"></span>0</h1>
+        <h1>Unanswered: <span id="unanswered">0</span></h1>
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 </html>
