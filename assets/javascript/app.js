@@ -35,6 +35,13 @@ $(document).ready(function () {
     function count() {
         clock--;
         $("#number").html(clock + " seconds");
+        if(clock == -1) {
+            finish();
+            alert("Times Up!");
+        };
+    
     }
+
+    
     
 });
