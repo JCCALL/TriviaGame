@@ -13,7 +13,8 @@ $(document).ready(function () {
 
     $("#stButton").on("click", start);
     $("#done").on("click", finish); 
-    
+    $("#tryagain").on("click", restart);
+
     function start() {
         $("#start").hide();
         $("#gameplay").show();
@@ -30,6 +31,7 @@ $(document).ready(function () {
         $("#gameplay").hide();
         clearInterval(intervalId);
         clockRunning = false;
+        clock = 60;
     };
 
     function count() {
@@ -42,6 +44,11 @@ $(document).ready(function () {
     
     }
 
+    function restart() {
+        $("#start").show();
+        $("#results").hide();
+        
+    }
     
     
 });
