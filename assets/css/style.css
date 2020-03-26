@@ -1,0 +1,30 @@
+@font-face {
+    font-family: star-jedi;
+    src: url(../font/Starjedi.ttf);
+}
+html {
+    height: 100%;
+}
+
+.heading {
+    font-family: star-jedi;
+    text-align: center;
+    color: #ffea00;
+    font-size: 5vw;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/background.png);
+}
+
+#stButton {
+    text-align: center;
+    font-size: 2vw;
+    
+}
+
+h1 {
+    color: #ffea00;
+}

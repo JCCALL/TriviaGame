@@ -65,11 +65,90 @@ $(document).ready(function () {
 
         if (Q1 === undefined){
             unansweredCount++;
-        } else if (Q1 == ""){
+        } else if (Q1 == "Moisture Farmers"){
             correctCount++;
         }else{
             missedCount++;
         }
+
+        if (Q2 === undefined){
+            unansweredCount++;
+        } else if (Q2 === "Han Solo"){
+            correctCount++;
+        }else{
+            missedCount++;
+        }
+
+        if (Q3 === undefined){
+            unansweredCount++;
+        } else if (Q3 === "right"){
+            correctCount++;
+        }else{
+            missedCount++;
+        }
+
+        if (Q4 === undefined){
+            unansweredCount++;
+        } else if (Q4 === "Slave I"){
+            correctCount++;
+        }else{
+            missedCount++;
+        }
+
+        if (Q5 === undefined){
+            unansweredCount++;
+        } else if (Q5 === "Unkown"){
+            correctCount++;
+        }else{
+            missedCount++;
+        }
+
+        if (Q6 === undefined){
+            unansweredCount++;
+        } else if (Q6 === "12"){
+            correctCount++;
+        }else{
+            missedCount++;
+        }
+
+        if (Q7 === undefined){
+            unansweredCount++;
+        } else if (Q7 === "Kyber Crystals"){
+            correctCount++;
+        }else{
+            missedCount++;
+        }
+
+        if (Q8 === undefined){
+            unansweredCount++;
+        } else if (Q8 === "Red 5"){
+            correctCount++;
+        }else{
+            missedCount++;
+        }
+
+        if (Q9 === undefined){
+            unansweredCount++;
+        } else if (Q9 === "Himself"){
+            correctCount++;
+        }else{
+            missedCount++;
+        }
+
+        if (Q10 === undefined){
+            unansweredCount++;
+        } else if (Q10 === "Jabba the Hutt"){
+            correctCount++;
+        }else{
+            missedCount++;
+        }
+
+        $("#correct").html(correctCount);
+        $("#missed").html(missedCount);
+        $("#unanswered").html(unansweredCount);
+
+
+
     };
 
 });
