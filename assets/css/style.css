@@ -2,6 +2,14 @@
     font-family: star-jedi;
     src: url(../font/Starjedi.ttf);
 }
+@font-face {
+    font-family: starhollow;
+    src: url(../font/Starjhol.ttf);
+}
+@font-face {
+    font-family: basic;
+    src: url(../font/galbasic.ttf);
+}
 html {
     height: 100%;
 }
@@ -10,7 +18,13 @@ html {
     font-family: star-jedi;
     text-align: center;
     color: #ffea00;
+    font-size: 9vw;
+}
+.heading2 {
+    color:#ffea00;
     font-size: 5vw;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 body{
@@ -19,12 +33,51 @@ body{
     background-image: url(../images/background.png);
 }
 
-#stButton {
+#stButton, #done, #tryagain{
     text-align: center;
-    font-size: 2vw;
+    font-size: 3vw;
+    color: #3babbf;
+    background-color: black;
+    border: solid white 1px;
     
 }
 
 h1 {
     color: #ffea00;
+}
+
+#start {
+    width: 70vw;
+    margin-left: 15vw;
+    padding: 2vw;
+    text-align: center;
+
+}
+
+#gameplay{
+    text-align: justify;
+    font-size: 2vw;
+    color: #3babbf;
+    width: 70vw;
+    margin-left: 15vw;
+    background-color: black; 
+    padding: 2vw;
+}
+#timer, #number {
+    font-family: sans-serif;
+    color: #3babbf;
+    text-align: center;
+}
+
+#results {
+    width: 70vw;
+    margin-left: 15vw;
+    padding: 2vw;
+    text-align: center;
+}
+
+#thanks {
+    font-family: basic;
+    font-size: 2vw;
+    color: #3babbf;
 }
