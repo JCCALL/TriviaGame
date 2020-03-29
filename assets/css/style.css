@@ -19,18 +19,22 @@ html {
     text-align: center;
     color: #ffea00;
     font-size: 9vw;
+    padding: 20px;
 }
 .heading2 {
     color:#ffea00;
     font-size: 5vw;
     font-family: sans-serif;
     text-align: center;
+    padding-top: 20px;
+    letter-spacing: .2vw;
 }
 
 body{
     height: 100%;
     width: 100%;
     background-image: url(../images/background.png);
+    background-color: black;
 }
 
 #stButton, #done, #tryagain{
@@ -51,7 +55,7 @@ h1 {
     margin-left: 15vw;
     padding: 2vw;
     text-align: center;
-
+    background-color: black;
 }
 
 #gameplay{
@@ -74,10 +78,15 @@ h1 {
     margin-left: 15vw;
     padding: 2vw;
     text-align: center;
+    background-color: black;
 }
 
 #thanks {
     font-family: basic;
     font-size: 2vw;
     color: #3babbf;
+}
+
+.end {
+    font-size: 2vw;
 }
