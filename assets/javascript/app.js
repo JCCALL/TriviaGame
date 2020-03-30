@@ -1,4 +1,4 @@
-var clock = 180;
+var clock = 60;
 var clockRunning = false;
 var intervalId;
 var correctCount = 0;
