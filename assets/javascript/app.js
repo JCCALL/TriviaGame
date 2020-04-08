@@ -97,7 +97,7 @@ $(document).ready(function () {
 
         if (Q5 === undefined){
             unansweredCount++;
-        } else if (Q5 === "Unkown"){
+        } else if (Q5 === "Unknown"){
             correctCount++;
         }else{
             missedCount++;
